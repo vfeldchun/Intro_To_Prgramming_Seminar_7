@@ -5,7 +5,7 @@
 int m;
 int n;
 
-Console.WriteLine("Введите целые числв M и N, где |М| < N");
+Console.WriteLine("Введите целые числа M и N, где |М| < N");
 while (true)
 {
     m = GetNumber('M');
@@ -18,7 +18,7 @@ while (true)
     }
     else
     {
-        Console.WriteLine("Введите чтсла M и N заново. М и N не могут быть пусьыми или |M| >= N.");
+        Console.WriteLine("Введите числа M и N заново. М и N не могут быть пусьыми или |M| >= N.");
     }
 }
 
