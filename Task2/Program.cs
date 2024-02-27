@@ -18,7 +18,7 @@ while (true)
         if ((m >= 4 && n > 0) || (m == 3 && n > 11) || (m == 2 && n > 9600)) 
         {
             Console.WriteLine($"Такое значение M: {m} и N: {n}, может вызвать переполнение стека!");
-            Console.Write("Для продолжения введите y, для повтороного ввода M любой другой символ: ");
+            Console.Write("Для продолжения введите y, для повтороного ввода M нажмите Enter: ");
             chooseAction = Console.ReadLine();
             if (chooseAction != "y")
                 continue;
