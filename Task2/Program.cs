@@ -2,8 +2,6 @@
 // Напишите программу вычисления функции Аккермана с помощью рекурсии. 
 // Даны два неотрицательных числа m и n.
 
-using System.Runtime.InteropServices;
-
 int m;
 int n;
 int result;
